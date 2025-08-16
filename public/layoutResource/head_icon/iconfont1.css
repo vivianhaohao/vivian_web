@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1751211450668') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-telegram:before {
+  content: "\e715";
+}
+
+.icon-github:before {
+  content: "\ea0a";
+}
+
+.icon-youtube:before {
+  content: "\f274";
+}
+
+.icon-linkedin:before {
+  content: "\e600";
+}
+
+.icon-email:before {
+  content: "\e604";
+}
+
+.icon-whatsapp:before {
+  content: "\e7ab";
+}
+
+.icon-blog:before {
+  content: "\e503";
+}
+
+.icon-x:before {
+  content: "\e527";
+}
+

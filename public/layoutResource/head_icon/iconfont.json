@@ -1,0 +1,72 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1262237",
+      "name": "telegram",
+      "font_class": "telegram",
+      "unicode": "e715",
+      "unicode_decimal": 59157
+    },
+    {
+      "icon_id": "3176645",
+      "name": "GitHub",
+      "font_class": "GitHub",
+      "unicode": "ea0a",
+      "unicode_decimal": 59914
+    },
+    {
+      "icon_id": "5634925",
+      "name": "youtube",
+      "font_class": "youtube",
+      "unicode": "f274",
+      "unicode_decimal": 62068
+    },
+    {
+      "icon_id": "8449573",
+      "name": "领英",
+      "font_class": "lingying",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "11466681",
+      "name": "email",
+      "font_class": "email",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "12579579",
+      "name": "whatsapp",
+      "font_class": "whatsapp",
+      "unicode": "e7ab",
+      "unicode_decimal": 59307
+    },
+    {
+      "icon_id": "37928905",
+      "name": "博客-copy",
+      "font_class": "boke",
+      "unicode": "e503",
+      "unicode_decimal": 58627
+    },
+    {
+      "icon_id": "42905929",
+      "name": "橘猫",
+      "font_class": "jumao",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "42973536",
+      "name": "tuite-copy",
+      "font_class": "tuite",
+      "unicode": "e527",
+      "unicode_decimal": 58663
+    }
+  ]
+}
