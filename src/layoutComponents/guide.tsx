@@ -11,7 +11,7 @@ export default function Guide() {
     <div className="
       mt-7 w-full h-[6vh]
       sm:mt-14
-      lg:mt-32
+      lg:mt-26
       overflow-x-auto px-3 flex gap-5 font-extralight
       scrollbar-hide text-sm items-center
       sm:text-2xl md:h-[8vh] md:text-3xl

@@ -8,8 +8,8 @@ export default function Intro() {
             w-full h-[8vh] mt-4
             sm:h-[10vh] sm:mt-6
             md:h-[11vh] md:mt-7
-            lg:h-[20vh] lg:mt-5
-            xl:h-[25vh] xl:mt-1
+            lg:h-[19vh] lg:mt-2
+            xl:h-[21vh] 
             
             ">
             </div>
