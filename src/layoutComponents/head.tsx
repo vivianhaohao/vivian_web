@@ -9,7 +9,7 @@ export default function Head() {
           src="/layoutResource/bg2.jpg"
           alt=""
 
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover border-b-2"
         />
 
 
@@ -17,15 +17,15 @@ export default function Head() {
           absolute z-20
           left-4 -bottom-12 sm:left-6 sm:-bottom-20
           md:left-8 md:-bottom-24 lg:left-10 lg:-bottom-30 xl:left-11 xl:-bottom-35
-          h-[13vh] w-[13vh] sm:h-[16vh] sm:w-[16vh]
-          md:h-[18vh] md:w-[18vh] lg:h-[30vh] lg:w-[30vh] xl:h-[29vh] xl:w-[29vh]
+          h-[11vh] w-[11vh] sm:h-[14vh] sm:w-[14vh]
+          md:h-[16vh] md:w-[16vh] lg:h-[28vh] lg:w-[28vh] xl:h-[29vh] xl:w-[29vh]
           flex justify-center items-center overflow-hidden
         ">
           <Link to="projects">
             <img
             src="/layoutResource/photo.jpg"
             alt=""
-            className="h-full w-full rounded-full border-2"
+            className="h-full w-full rounded-full border-2 "
           />
           </Link>
 

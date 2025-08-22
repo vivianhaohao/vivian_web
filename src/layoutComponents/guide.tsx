@@ -9,8 +9,8 @@ export default function Guide() {
 
   return (
     <div className="
-      mt-11 w-full h-[6vh]
-      sm:mt-16
+      mt-7 w-full h-[6vh]
+      sm:mt-14
       lg:mt-32
       overflow-x-auto px-3 flex gap-5 font-extralight
       scrollbar-hide text-sm items-center
