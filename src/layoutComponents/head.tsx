@@ -9,7 +9,7 @@ export default function Head() {
           src="/layoutResource/bg2.jpg"
           alt=""
 
-          className="w-full h-full object-cover border-b-2"
+          className="w-full h-full object-cover"
         />
 
 
