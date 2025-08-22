@@ -6,10 +6,11 @@ export default function Intro() {
         ">
             <div className="
             w-full h-[8vh]
-            sm:h-[10vh] sm:mt-11
-            md:h-[11vh] md:mt-10
-            lg:h-[20vh] lg:mt-10
-            xl:h-[25vh] xl:mt-11
+            sm:h-[10vh] sm:mt-6
+            md:h-[11vh] md:mt-7
+            lg:h-[20vh] lg:mt-5
+            xl:h-[25vh] xl:mt-1
+            
             ">
             </div>
 
@@ -24,7 +25,7 @@ export default function Intro() {
                     md:text-4xl
                     lg:text-5xl
                     xl:text-6xl
-                    ">Vivian</span>
+                    ">Vivian.</span>
                     <div className="
                     flex justify-center items-center
                     ">
@@ -59,7 +60,7 @@ export default function Intro() {
                 lg:text-3xl lg:py-5
                 xl:text-4xl xl:py-6
                 ">
-                    <p>Coding for fun.</p>
+                    <p>Coding with creativity.</p>
 
                 </div>
                 <div className="

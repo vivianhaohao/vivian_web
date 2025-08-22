@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 
 export default function Guide() {
   const guideitems = [
-    "projects", "research", "blogs", "work", "model", "youtube", "anime", "novel"
+    "products","projects", "research", "blogs", "work", "model", "youtube", "anime", "novel"
   ];
 
   const location = useLocation(); // 获取当前路由路径
