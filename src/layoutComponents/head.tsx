@@ -4,12 +4,12 @@ export default function Head() {
   return (
     <div className="relative w-full">
       <div className="relative w-full
-        h-[23vh] sm:h-[33vh] md:h-[38vh] lg:h-[64vh] xl:h-[66vh]">
+        h-[23vh] sm:h-[33vh] md:h-[38vh] lg:h-[64vh] xl:h-[63vh]">
         <img
-          src="/layoutResource/11.jpg"
+          src="/layoutResource/bg2.jpg"
           alt=""
 
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover border-b-2"
         />
 
 
@@ -23,7 +23,7 @@ export default function Head() {
         ">
           <Link to="projects">
             <img
-            src="/layoutResource/1.jpg"
+            src="/layoutResource/photo.jpg"
             alt=""
             className="h-full w-full rounded-full border-2"
           />
