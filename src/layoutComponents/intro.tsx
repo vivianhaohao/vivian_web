@@ -5,15 +5,10 @@ export default function Intro() {
         w-full
         ">
             <div className="
-            w-full h-[8vh] mt-4
-            sm:h-[10vh] sm:mt-6
-            md:h-[11vh] md:mt-7
-            lg:h-[19vh] lg:mt-2
-            xl:h-[21vh] 
-            
+            w-full h-[6vh] sm:h-[8vh] md:h-[10vh] lg:h-[12vh]
+            xl:h-[14vh] 
             ">
             </div>
-
             <div className="
             w-full
             ">

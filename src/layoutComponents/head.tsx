@@ -1,35 +1,33 @@
 import {Link} from "react-router-dom";
+import Record from "./music_record.tsx"
 
 export default function Head() {
   return (
-    <div className="relative w-full">
+    <div className="relative w-full bg-black">
       <div className="relative w-full
-        h-[26vh] sm:h-[33vh] md:h-[38vh] lg:h-[68vh] xl:h-[68vh]">
-        <img
-          src="/layoutResource/bg2.jpg"
-          alt=""
-
-          className="w-full h-full object-cover border-b-2"
-        />
-
+        h-[30vh] sm:h-[35vh] md:h-[40vh] lg:h-[53vh] xl:h-[52vh] border-b-2 ">
+          
+          <img src="/layoutResource/2.jpg" alt="" className="object-cover h-full w-full"/>
+          
 
         <div className="
           absolute z-20
-          left-4 -bottom-10 sm:left-6 sm:-bottom-20
-          md:left-8 md:-bottom-24 lg:left-10 lg:-bottom-24 xl:left-11 xl:-bottom-35
-          h-[11vh] w-[11vh] sm:h-[14vh] sm:w-[14vh]
-          md:h-[16vh] md:w-[16vh] lg:h-[28vh] lg:w-[28vh] xl:h-[29vh] xl:w-[29vh]
+          left-4 -bottom-8 sm:left-6 sm:-bottom-16
+          md:left-8 md:-bottom-20 lg:left-10 lg:-bottom-16 xl:left-11 xl:-bottom-24
+          h-[10vh] w-[10vh] sm:h-[12vh] sm:w-[12vh]
+          md:h-[14vh] md:w-[14vh] lg:h-[22vh] lg:w-[22vh] xl:h-[23vh] xl:w-[23vh]
           flex justify-center items-center overflow-hidden
         ">
-          <Link to="projects">
+          <Link to="product">
             <img
             src="/layoutResource/photo.jpg"
             alt=""
-            className="h-full w-full rounded-full border-2 "
+            className="h-full w-full rounded-full border-2  "
           />
           </Link>
 
         </div>
+        
       </div>
     </div>
   );

@@ -2,15 +2,16 @@ import { Link, useLocation } from "react-router-dom";
 
 export default function Guide() {
   const guideitems = [
-    "products","projects", "research", "blogs", "work", "model", "youtube", "anime", "novel"
+    "product","project", "research", "blog", "podcast","design",
+    "work","model", "youtube", "painting", "photo","novel","pome",
+    "song","anime","game","essay"
   ];
 
   const location = useLocation(); // 获取当前路由路径
 
   return (
     <div className="
-      mt-7 w-full h-[6vh]
-      sm:mt-14
+       w-full h-[6vh]
       lg:mt-26
       overflow-x-auto px-3 flex gap-5 font-extralight
       scrollbar-hide text-sm items-center

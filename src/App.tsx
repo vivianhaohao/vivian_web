@@ -3,7 +3,7 @@ import { Suspense, lazy } from 'react'
 import Layout from './layout/layout'
 
 // 懒加载页面组件
-const Products=lazy(()=>import("./page/products"))
+const Product=lazy(()=>import("./page/product"))
 
 
 const NotFound = lazy(() => import('./page/404'))
@@ -15,8 +15,8 @@ export default function App() {
 
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route index element={<Products />} />
-            <Route path="products" element={<Products />} />
+            <Route index element={<Product />} />
+            <Route path="product" element={<Product />} />
 
             <Route path="*" element={<NotFound />} />
           </Route>
