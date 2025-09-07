@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import Record from "./music_record.tsx"
+import Record from "../layoutComponents/music_record.tsx"
 
 export default function Head() {
   return (
