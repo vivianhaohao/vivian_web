@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { Suspense, lazy } from 'react'
 import Layout from './layout/layout'
 
@@ -15,7 +15,7 @@ export default function App() {
 
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route index element={<Product />} />
+            <Route index element={<Navigate to="project" replace/>} />
             <Route path="product" element={<Product />} />
 
             <Route path="*" element={<NotFound />} />

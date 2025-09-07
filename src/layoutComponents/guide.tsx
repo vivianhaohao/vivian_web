@@ -2,9 +2,10 @@ import { Link, useLocation } from "react-router-dom";
 
 export default function Guide() {
   const guideitems = [
-    "product","project", "research", "blog", "podcast","design",
-    "work","model", "youtube", "painting", "photo","novel","pome",
-    "song","anime","game","essay"
+    "product","project", "finance", "web3","math","AI","community",
+    "academic" , "blog", "podcast","design",
+    "skill","model", "youtube", "gallery","anime", "photography",
+    "essay","novel","pome","music","game","language",
   ];
 
   const location = useLocation(); // 获取当前路由路径
@@ -25,7 +26,7 @@ export default function Guide() {
           <Link
             to={`/${item}`}
             key={item}
-            className={`
+            className={`whitespace-nowrap
               px-2 py-1 rounded-full cursor-pointer
               sm:px-4 sm:py-1 md:py-2 lg:px-5 xl:px-6
               ${isActive 
