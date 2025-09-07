@@ -27,7 +27,7 @@ export default function SvgTurntable() {
         height: 200, // 高度
         position: "relative", // 相对定位
         cursor: "pointer", // 鼠标样式
-        margin: "60px auto", // 上下外边距
+        margin: "20px 750px", // 上下外边距
         userSelect: "none", // 禁止选中
         filter: playing ? "drop-shadow(0 0 32px #7f53ac)" : "none", // 播放时发光
         transition: "filter 0.4s", // 阴影过渡
@@ -41,7 +41,7 @@ export default function SvgTurntable() {
         height="345" // SVG画布高度
         style={{
           position: "absolute", // 绝对定位
-          top: -5, // 微调位置
+          top: 0, // 微调位置
           left: 0,
           animation: playing ? "rotate 2.5s linear infinite" : "none", // 播放时旋转动画
           transformOrigin: "50% 50%", // 旋转中心

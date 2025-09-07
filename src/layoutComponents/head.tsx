@@ -8,7 +8,10 @@ export default function Head() {
         h-[30vh] sm:h-[35vh] md:h-[40vh] lg:h-[53vh] xl:h-[52vh] border-b-2 ">
           
           <img src="/layoutResource/2.jpg" alt="" className="object-cover h-full w-full"/>
-          
+
+          <div className="top-0 right-0 flex items-end w-full absolute">
+          <Record/>
+        </div>
 
         <div className="
           absolute z-20
@@ -27,6 +30,7 @@ export default function Head() {
           </Link>
 
         </div>
+        
         
       </div>
     </div>
